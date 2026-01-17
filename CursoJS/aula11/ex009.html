@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De onde você é?</title>
+</head>
+<body>
+    <h2>Sua nacionalidade</h2>
+    Qual o seu país? <input type="text" name="pais" id="">
+    <input type="button" value="Enviar" onclick="clicar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function clicar() {
+            var pais = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+            var vel = 'EUA'
+            res.innerText(`Vivendo em ${vel}`)
+            if (vel == 'Brasil') {
+                res.innerHTML('Você é Brasileiro!')
+            } else {
+                res,innerHTML('Você é Estrangeiro!')
+            }
+        }
+    </script>
+</body>
+</html>
