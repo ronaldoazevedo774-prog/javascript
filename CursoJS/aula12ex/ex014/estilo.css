@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*<img id="img" style="border-radius: 50%" width="250" heigth="250" src="manha.png" alt="Foto do Horário">*/
+
 body {
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
@@ -17,6 +17,11 @@ section {
     width: 500px;
     margin-inline-end: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
 }
 
 footer {
