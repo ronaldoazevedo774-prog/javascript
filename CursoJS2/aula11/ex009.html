@@ -14,11 +14,11 @@
     </div>
     <script>
         function verificar() {
-            var pais = window.document.querySelector('input#txtn')
-            var res = window.document.querySelector('div#res')
+            var pais = window.document.getElementById('txtn')
+            var res = window.document.getElementById('res')
             var n = 'EUA'
             res.innerText(`Vivendo em ${n}`)
-            if (n == Brasil) {
+            if (n == 'Brasil') {
                 res.innerHTML('Você é Brasileiro!')
             } else {
                 res.innerHTML('Você é Estrangeiro!')
