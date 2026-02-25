@@ -1,6 +1,6 @@
-let amigo = {nome: 'José',
+let amigo = {nome: 'Ronald',
 sexo: 'M',
-peso: 85.4
+peso: 47.1,
 engordar(p=0){
     console.log('Engordou')
     this.peso += p
