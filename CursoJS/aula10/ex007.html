@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somando números</title>
+    <title>Somando Números</title>
     <style>
         body {
-            font: normal 18pt Arial;
+            font: normal 15pt Arial;
         }
 
         input {
-            font: normal 18pt Arial;
+            font: normal 15pt Arial;
             width: 100px;
         }
 
@@ -20,9 +20,9 @@
     </style>
 </head>
 <body>
-    <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> +
-    <input type="number" name="txtn2" id="txtn2">
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1" placeholder="Digite um número"> +
+    <input type="number" name="txtn2" id="txtn2" placeholder="Digite outro número">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
     <script>
@@ -33,7 +33,7 @@
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>.`
         }
     </script>
 </body>
